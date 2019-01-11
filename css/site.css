@@ -1,12 +1,16 @@
 body {
     background-color: #F2FFFC;
     font-family: "Crimson Text", "Times New Roman", serif;
+    line-height: 1.5;
 }
 
 main h1 {
     background-color: #851944;
     color: #FFF;
     text-align: center;
+    padding: 20px;
+    margin: 0px;
+    border-bottom: 10px solid black;
 }
 
 h1, h2 {
@@ -19,11 +23,19 @@ p {
 
 blockquote {
     background-color: #D9E5E3;
+    padding: 16px;
+    border: 10px solid #C2CCCA;
+    /*border-bottom-color: #333;
+    border-right-color: #FFF;*/
+    width: 250px;
+    margin: 0px;
+    box-sizing: border-box;
 }
 
 aside {
     background-color: #3C1D3D;
     color: #F2FFFC;
+    text-align: center;
 }
 
 nav a {
@@ -43,4 +55,13 @@ main a {
 aside a {
     color: inherit;
     font-family: "Open Sans Condensed", sans-serif;
+}
+
+main div {
+    width: 720px;
+    margin: auto;
+}
+
+ul {
+    list-style-type: none;
 }
