@@ -5,7 +5,7 @@ body {
     font-size: 120%;
 }
 
-main h1 {
+.titulo-principal {
     background-color: #851944;
     color: #FFF;
     font-size: 60px;
@@ -27,7 +27,7 @@ p {
     margin: 20px 0;
 }
 
-blockquote {
+.citacao {
     background-color: #D9E5E3;
     border: 10px solid #C2CCCA;
     width: 250px;
@@ -35,7 +35,7 @@ blockquote {
     box-sizing: border-box;
 }
 
-aside {
+.navegacao-site {
     background-color: #3C1D3D;
     color: #F2FFFC;
     text-align: center;
@@ -49,6 +49,10 @@ aside a {
 aside h1 {
     font-size: 30px;
     margin-bottom: 25px;
+}
+
+.icone-rede-social {
+    display: inline-block;
 }
 
 nav a {
@@ -84,4 +88,10 @@ em {
 
 blockquote, aside, footer {
     padding: 20px;
+}
+
+article {
+    padding-bottom: 30px;
+    border-bottom: 1px solid #CCC;
+    margin-bottom: 20px;
 }
