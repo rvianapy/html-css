@@ -7,6 +7,7 @@ body {
 
 h2 {
     font-size: 30px;
+    clear: both;
 }
 
 h1, h2 {
@@ -36,6 +37,12 @@ nav a {
 footer {
     background-color: black;
     color: #F2FFFC;
+    clear: both;
+}
+
+main {
+    float: left;
+    width: 85%;
 }
 
 main a {
@@ -70,8 +77,19 @@ article {
     margin-bottom: 20px;
 }
 
-h1 {
-    text-transform: uppercase;
+aside, img {
+    float: right;
+    width: 15%;
+}
+
+aside {
+    clear: right;
+    box-sizing: border-box;
+}
+
+cite {
+    font-style: italic;
+    float: right;
 }
 
 .titulo-principal {
@@ -84,12 +102,20 @@ h1 {
     text-transform: uppercase;
 }
 
-.citacao {
+.citacao-fiat, .citacao-petrobras {
     background-color: #D9E5E3;
     border: 10px solid #C2CCCA;
     width: 250px;
     margin: 20px 40px;
     box-sizing: border-box;
+}
+
+.citacao-fiat {
+    float: right;
+}
+
+.citacao-petrobras {
+    float: left;
 }
 
 .navegacao-site {
