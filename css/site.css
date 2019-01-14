@@ -2,7 +2,6 @@ body {
     background-color: #F2FFFC;
     font-family: "Crimson Text", "Times New Roman", serif;
     line-height: 1.5;
-    font-size: 120%;
 }
 
 h2 {
@@ -38,6 +37,9 @@ footer {
     background-color: black;
     color: #F2FFFC;
     clear: both;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 
 main {
@@ -77,19 +79,17 @@ article {
     margin-bottom: 20px;
 }
 
-aside, img {
-    float: right;
-    width: 15%;
-}
-
-aside {
-    clear: right;
-    box-sizing: border-box;
-}
-
 cite {
     font-style: italic;
     float: right;
+}
+
+.container {
+    margin: 0 auto;
+    width: 840px;
+    padding: 40px 0;
+    padding-bottom: 80px;
+    font-size: 120%;
 }
 
 .titulo-principal {
@@ -122,6 +122,23 @@ cite {
     background-color: #3C1D3D;
     color: #F2FFFC;
     text-align: center;
+    width: 12%;
+    position: relative;
+    top: 421.56px;
+}
+
+.minha-foto {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 15%;
+}
+
+.minha-foto, .navegacao-site {
+    float: right;
+    box-sizing: border-box;
+    border-left: 10px solid black;
+    border-bottom: 10px solid black;
 }
 
 .icones-redes-sociais li {
