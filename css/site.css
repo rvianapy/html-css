@@ -33,15 +33,6 @@ nav a {
     text-transform: lowercase;
 }
 
-footer {
-    background-color: black;
-    color: #F2FFFC;
-    clear: both;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-}
-
 main {
     float: left;
     width: 85%;
@@ -155,15 +146,15 @@ cite {
 }
 
 .github {
-    background-image: url(../github.png);
+    background-image: url(../img/github.png);
 }
 
 .twitter {
-    background-image: url(../twitter.png);
+    background-image: url(../img/twitter.png);
 }
 
 .linkedin {
-    background-image: url(../linkedin.png);
+    background-image: url(../img/linkedin.png);
 }
 
 .leia-mais {
@@ -173,4 +164,19 @@ cite {
     font-size: 24px;
     text-align: center;
     background-color: #E6E7E8;
+}
+
+.artigo {
+    padding-bottom: 30px;
+    border-bottom: 1px solid #CCC;
+    margin-bottom: 20px;
+}
+
+.rodape-pagina {
+    background-color: black;
+    color: #F2FFFC;
+    clear: both;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
